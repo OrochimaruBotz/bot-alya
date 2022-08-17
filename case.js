@@ -647,13 +647,13 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!`)
 break
             case 'sc':  case 'sourcecode': {
 	        anu = `
-◦ Script : https://github.com/Nando35/ALYAM
+◦ Script : https://github.com/OrochimaruBotz/bot-alya
 ◦ Script ori : https://github.com/DikaArdnt/ALYA-Morou
 
 Jangan lupa kasih bintang.
-◦ Donate : 628125284895 (Dana / gopay)
-◦ Saweria : https://saweria.co/Nando35
-◦ Paypal : https://www.paypal.me/Rifando35
+◦ Donate : 6288804947282 (Dana / gopay)
+◦ Saweria : https://saweria.co/YamatoKing
+◦ Paypal : https://www.paypal.me/gojobotz
 
 Dont Forget Donate
 `
@@ -672,6 +672,9 @@ case 'tqto': case 'partner': case 'credits': {
 
 Dika Ardnt
 ◦ https://github.com/DikaArdnt
+
+Yamato
+◦https://github.com/OrochimaruBotz
 
 Fatih Arridho
 ◦ https://github.com/FatihArridho
@@ -2657,8 +2660,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 //disini ngab kalo mau edit menunya
 //────────────────────[ MAIN MENU HOOOOOOHHH ]────────────────────
 case 'menu': case 'help':{
-var haduh = global.gambar
-var button = [{ buttonId: `allmenu`, buttonText: { displayText: `MENU BOT` }, type: 1 }, { buttonId: `donasi`, buttonText: { displayText: `SEWA BOT` }, type: 1 }, { buttonId: `rules`, buttonText: { displayText: `RULES BOT` }, type: 1 }]
+var haduh = "https://telegra.ph/file/7cc32c9e6e23659c94bc7.jpg"
+var button = [{ buttonId: `allmenu`, buttonText: { displayText: `Menu` }, type: 1 }, { buttonId: `donasi`, buttonText: { displayText: `Sewa` }, type: 1 }, { buttonId: `rules`, buttonText: { displayText: `Rules` }, type: 1 }]
 ALYA.sendMessage(m.chat, { caption: `Hai Kak @${sender.split('@')[0]}\n\nSaya ${global.botname}, Bot WhatsApp yg membantu kamu untuk mempermudah sesuatu seperti Membuat Sticker dan Lainnya, Ada Butuh Info Dariku?`, location: { jpegThumbnail: await reSize(haduh, 300, 300) }, buttons: button, footer: `Note: Kalo kamu pakai wa lama atau mod, dan button ga keliatan, langsung aja ketik ${prefix}allmenu`, mentions: [m.sender] })
 }
 break
@@ -2710,12 +2713,12 @@ lier = `\`\`\`Selamat ${ucapan} Kak @${m.sender.split('@')[0]} 😳\`\`\`
 
 
 *Official BOT By @${owner[0].split('@')[0]}*`
-var button = [{ buttonId: `owner`, buttonText: { displayText: `OWNER` }, type: 1 }]
+var button = [{ buttonId: `owner`, buttonText: { displayText: `Owner` }, type: 1 }]
 loh = await ALYA.sendMessage(m.chat, { caption: `${lier}`, location: { jpegThumbnail: await reSize(ppuser, 300, 300) }, buttons: button, footer: botname, mentions: await ALYA.parseMention(lier) })
 await sleep(500)
 let sections = [
 {
-title: "THIS FAITURES BOT",
+title: "Fiturr GojoBot",
 rows: [
 {title: "Group Menu", rowId: `menugc`, description: `This faiture is only for groups`},
 {title: "Downloader", rowId: `menudown`, description: `Want to download something? Click here`},
