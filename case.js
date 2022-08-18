@@ -2660,7 +2660,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 //disini ngab kalo mau edit menunya
 //────────────────────[ MAIN MENU HOOOOOOHHH ]────────────────────
 case 'menu': case 'help':{
-var haduh = "https://telegra.ph/file/7cc32c9e6e23659c94bc7.jpg"
+var haduh = 'https://telegra.ph/file/7cc32c9e6e23659c94bc7.jpg'
 var button = [{ buttonId: `allmenu`, buttonText: { displayText: `Menu` }, type: 1 }, { buttonId: `donasi`, buttonText: { displayText: `Sewa` }, type: 1 }, { buttonId: `rules`, buttonText: { displayText: `Rules` }, type: 1 }]
 ALYA.sendMessage(m.chat, { caption: `Hai Kak @${sender.split('@')[0]}\n\nSaya ${global.botname}, Bot WhatsApp yg membantu kamu untuk mempermudah sesuatu seperti Membuat Sticker dan Lainnya, Ada Butuh Info Dariku?`, location: { jpegThumbnail: await reSize(haduh, 300, 300) }, buttons: button, footer: `Note: Kalo kamu pakai wa lama atau mod, dan button ga keliatan, langsung aja ketik ${prefix}allmenu`, mentions: [m.sender] })
 }
