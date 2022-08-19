@@ -2913,7 +2913,7 @@ return m.reply(`*ISLAM MENU*
 }
 break 
 case 'menufun':{
-var no : 1
+var no = 1
 return m.reply(`*Fun*
 *${no++}* ◦ ${prefix}halah
 *${no++}* ◦ ${prefix}hilih
@@ -2931,7 +2931,7 @@ return m.reply(`*Fun*
 }
 break 
 case 'menumain':{
-var no : 1
+var no = 1
 return m.reply(`*Main menu*
 *${no++}* ◦ ${prefix}ping
 *${no++}* ◦ ${prefix}owner
@@ -2946,7 +2946,7 @@ return m.reply(`*Main menu*
 }
 break 
 case 'menubas':{
-var no : 1
+var no = 1
 return m.reply(`*Database*
 *${no++}* ◦ ${prefix}setcmd
 *${no++}* ◦ ${prefix}listcmd
