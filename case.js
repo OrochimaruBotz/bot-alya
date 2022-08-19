@@ -2727,7 +2727,10 @@ rows: [
 {title: "Menu Primbon", rowId: `menubon`, description: `bagi kamu yang percaya ramalan`},
 {title: "Menu Owner", rowId: `menuner`, description: `Fitur Khusus Owner`},
 {title: "Convertings", rowId: `menucon`, description: `Fitur untuk mengonversi media`},
-{title: "Islam menu", rowid: `menuislam`, description: `Menampilkan Fitur Islam`},
+{title: "Islam menu", rowid: `menulam`, description: `Menampilkan Fitur Islam`}, 
+{title: "Fun menu", rowid: `menufun`, description: `Menampilkan Fitur Fun`},
+{title: "Database", rowid: `menubas`, description: `Menampilkan Fitur Database`},
+{title: "Main Menu", rowid: `menumain`, description: `Menampilkan Fitur MainMenu`},
 ]
 },
 ]
@@ -2899,7 +2902,7 @@ return m.reply(`*C O N V E R T I N G S*
 *${no++}* ◦ ${prefix}styletext`)
 }
 break
-case 'menuislam':{
+case 'menulam':{
 var no = 1
 return m.reply(`*ISLAM MENU*
 *${no++}* ◦ ${prefix}iqra
@@ -2909,6 +2912,52 @@ return m.reply(`*ISLAM MENU*
 *${no++}* ◦ ${prefix}tafsirsurah`)
 }
 break 
+case 'menufun':{
+var no : 1
+return m.reply(`*Fun*
+*${no++}* ◦ ${prefix}halah
+*${no++}* ◦ ${prefix}hilih
+*${no++}* ◦ ${prefix}huluh
+*${no++}* ◦ ${prefix}heleh
+*${no++}* ◦ ${prefix}holoh
+*${no++}* ◦ ${prefix}jadian
+*${no++}* ◦ ${prefix}jodohku
+*${no++}* ◦ ${prefix}delttt
+*${no++}* ◦ ${prefix}tictactoe
+*${no++}* ◦ ${prefix}family100
+*${no++}* ◦ ${prefix}tebak [option]
+*${no++}* ◦ ${prefix}math [mode]
+*${no++}* ◦ ${prefix}suitpvp [@tag]`)
+}
+break 
+case 'menumain':{
+var no : 1
+return m.reply(`*Main menu*
+*${no++}* ◦ ${prefix}ping
+*${no++}* ◦ ${prefix}owner
+*${no++}* ◦ ${prefix}menu / ${prefix}help / ${prefix}?
+*${no++}* ◦ ${prefix}delete
+*${no++}* ◦ ${prefix}infochat
+*${no++}* ◦ ${prefix}quoted
+*${no++}* ◦ ${prefix}listpc
+*${no++}* ◦ ${prefix}listgc
+*${no++}* ◦ ${prefix}listonline
+*${no++}* ◦ ${prefix}speedtest`)
+}
+break 
+case 'menubas':{
+var no : 1
+return m.reply(`*Database*
+*${no++}* ◦ ${prefix}setcmd
+*${no++}* ◦ ${prefix}listcmd
+*${no++}* ◦ ${prefix}delcmd
+*${no++}* ◦ ${prefix}lockcmd
+*${no++}* ◦ ${prefix}addmsg
+*${no++}* ◦ ${prefix}listmsg
+*${no++}* ◦ ${prefix}getmsg
+*${no++}* ◦ ${prefix}delmsg`)
+}
+break
 //yang bawah ini lu bisa tambahin sendiri soalnya gue cape//
 
 /*case 'menu': case 'help': case '?': {                
