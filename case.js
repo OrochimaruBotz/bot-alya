@@ -2727,6 +2727,7 @@ rows: [
 {title: "Menu Primbon", rowId: `menubon`, description: `bagi kamu yang percaya ramalan`},
 {title: "Menu Owner", rowId: `menuner`, description: `Fitur Khusus Owner`},
 {title: "Convertings", rowId: `menucon`, description: `Fitur untuk mengonversi media`},
+{title: "Islam menu", rowid: `menuislam`, description: `Menampilkan Fitur Islam`},
 ]
 },
 ]
@@ -2898,6 +2899,16 @@ return m.reply(`*C O N V E R T I N G S*
 *${no++}* ◦ ${prefix}styletext`)
 }
 break
+case 'menuislam':{
+var no = 1
+return m.reply(`*ISLAM MENU*
+*${no++}* ◦ ${prefix}iqra
+*${no++}* ◦ ${prefix}hadist
+*${no++}* ◦ ${prefix}alquran
+*${no++}* ◦ ${prefix}juzamma
+*${no++}* ◦ ${prefix}tafsirsurah`)
+}
+break 
 //yang bawah ini lu bisa tambahin sendiri soalnya gue cape//
 
 /*case 'menu': case 'help': case '?': {                
