@@ -627,7 +627,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                ALYA.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f8d35118f27c5b371da2b.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n◦ 15k Per Group via E-Walet 1 Month\n◦ 20k via pulsa 1 Month\n\n Premium Price Bot\n◦ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281252848955 (Owner)\n\nDonate For Me : \n\n◦ Paypal : https://www.paypal.me/Rifando35\n◦ Saweria : https://saweria.co/Nando35` }, { quoted: m })
+                ALYA.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/7cc32c9e6e23659c94bc7.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n◦ 15k Per Group via E-Walet 1 Month\n◦ 20k via pulsa 1 Month\n\n Premium Price Bot\n◦ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6288804947282 (Owner)\n\nDonate For Me : \n\n◦ Paypal : https://www.paypal.me/Yamatokingz\n◦ Saweria : https://saweria.co/Gojobot3` }, { quoted: m })
             }
             break
             case 'rules':{
@@ -2720,13 +2720,13 @@ let sections = [
 {
 title: "Fiturr GojoBot",
 rows: [
-{title: "Group Menu", rowId: `menugc`, description: `This faiture is only for groups`},
-{title: "Downloader", rowId: `menudown`, description: `Want to download something? Click here`},
-{title: "Searchaching", rowId: `menusearch`, description: `this feature to search for something`},
-{title: "Text Maker", rowId: `menulog`, description: `features to create cool logos`},
-{title: "Menu Primbon", rowId: `menubon`, description: `for those of you who believe in prophecy`},
-{title: "Menu Owner", rowId: `menuner`, description: `this faiture is only for owners`},
-{title: "Convertings", rowId: `menucon`, description: `Features for converting media`},
+{title: "Group Menu", rowId: `menugc`, description: `Fitur ini hanya untuk grup`},
+{title: "Downloader", rowId: `menudown`, description: `Ingin mengunduh sesuatu? Klik disini`},
+{title: "Searchaching", rowId: `menusearch`, description: `fitur ini untuk mencari sesuatu`},
+{title: "Text Maker", rowId: `menulog`, description: `fitur untuk membuat logo keren`},
+{title: "Menu Primbon", rowId: `menubon`, description: `bagi kamu yang percaya ramalan`},
+{title: "Menu Owner", rowId: `menuner`, description: `Fitur Khusus Owner`},
+{title: "Convertings", rowId: `menucon`, description: `Fitur untuk mengonversi media`},
 ]
 },
 ]
